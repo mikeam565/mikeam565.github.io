@@ -212,7 +212,8 @@ a:hover {
 
     #navcontents {
         position: fixed;
-        padding: 10px 10px 10px 10px;
+        padding-right: 10px;
+        padding-left: 10px;
         right: 5vw;
         top: 5vw;
         left: 5vw;
@@ -224,8 +225,7 @@ a:hover {
 
     .navcontent {
         position: absolute;
-        width: 95%;
-        height: 100%;
+        top: 2vw;
     }
 
 
@@ -273,5 +273,7 @@ a:hover {
 
     #blog {
         font-size: 24px;
+        margin: 1vw 1vw 1vw 1vw;
+
     }
 }
