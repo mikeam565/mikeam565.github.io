@@ -1,7 +1,39 @@
 <!DOCTYPE html>
-<header>
-    <title>Mike's github pages</title>
-</header>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="static/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineer Portfolio</title>
+</head>
 <body>
-    <p>Hi</p>
+    <div id="background"></div>
+    <div class="paper-frame">
+        <div class="sidenav">
+            <div class="navitem" id="nav-bio" data-target="bio">Bio</div>
+            <div class="navitem" id="nav-resume" data-target="resume">Resume</div>
+            <div class="navitem" id="nav-blog" data-target="blog"><a href="static/blog.md">Blog</a></div>
+        </div>
+        <div id="navcontents">
+            <div id="bio" class="navcontent hidden">
+                <img class="bio-image" src="static/my_linkedin_photo.jpg">
+                <h1>Michael Mironidis</h1>
+                <p class="bio-text">
+                    I am a graduate of New York University’s class of 2022 with a joint degree in Computer Science and Mathematics. I am currently a Software Engineer at AT&T, working mainly in IVR (Interactive Voice Response) platform engineering (Java, Spring) and proof-of-concept ML application development (Python, Pandas, FastAPI, scikit).
+                    <br>A few of my favorite hobbies include producing music, basketball, soccer, and cycling (road/gravel).
+                </p>
+            </div>
+            <div id="resume" class="navcontent hidden">
+                <object data="static/MironidisMichael_resume.pdf" type="application/pdf" class="pdf">
+                    <p>PDF not displaying? <a href="your_pdf.pdf">Download</a> it!</p>
+                </object>
+            </div>
+            <div id="blog" class="navcontent hidden">
+            </div>
+        </div>
+    </div>
+    <div id="custom-cursor"></div>
+    <div id="follower"></div>
 </body>
+<script src="static/scripts.js"></script>
+</html>
