@@ -213,7 +213,7 @@ a {
         top: 5vw;
         left: 5vw;
         bottom: 50vw;
-        font-size: 5vw;
+        font-size: 28px;
         background-color: rgba(83, 126, 98, 0.253);
 
     }
@@ -237,12 +237,17 @@ a {
         visibility: visible;
     }
 
+    #bio {
+        position: relative;
+        height: 50%;
+    }
+
     .bio-image {
         margin: 1vw 1vw 1vw 1vw;
         display: inline;
         float: left;
-        width: 50vw;
-        height: 50vw;
+        width: 30vw;
+        height: 30vw;
         border-radius: 50%;
         vertical-align: top;
     }
