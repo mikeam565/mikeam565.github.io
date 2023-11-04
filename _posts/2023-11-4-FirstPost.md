@@ -1,7 +1,8 @@
-# Mike's blog
+---
+title: "Welcome to my personal site!"
+date: 2023-11-4
+---
 
-A blog for all kinds of thoughts
-  
 ## First Post!
 
 My main motivation for this page is to have a little personal site out there.

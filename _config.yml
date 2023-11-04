@@ -1,4 +1,4 @@
-title: Mike's Personal Site
+title: Michael Mironidis
 author:
   name: Michael Mironidis
   email: mikeam565@live.com
@@ -17,7 +17,7 @@ minima:
   # Minima date format.
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   #
-  date_format: "%b %-d, %Y"
+  # date_format: "%b %-d, %Y"
   skin: dark
   # Generate social links in footer.
   #
@@ -29,7 +29,7 @@ minima:
 # order as they should show up.
 #
 header_pages:
-  - about.md
+  - bio.md
 
 # Set to `true` to show excerpts on the homepage.
 #
