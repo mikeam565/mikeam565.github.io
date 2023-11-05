@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", (ev) => {
     const bio = document.getElementById("bio");
     const resume = document.getElementById("resume");
     const links = document.getElementById("links");
+    const a_links = document.getElementsByTagName("a");
 
     // DESKTOP SPECIFIC SCRIPTING
     if (!isMobileDevice) {
@@ -64,5 +65,14 @@ document.addEventListener("DOMContentLoaded", (ev) => {
             toHide2.classList.remove("visible");
             toHide2.classList.add("hidden");
         });
+    }
+
+    for (lnk in a_links) {
+        lnk.addEventListener("mouseenter", (ev) => {
+            follower.style.backgroundImage = 'url(\'static/circle_cursor_green.png\')';
+        });
+        lnk.addEventListener("mouseleave", (ev) => {
+            follower.style.backgroundImage = 'url(\'static/circle_cursor.png\')';
+        })
     }
 });

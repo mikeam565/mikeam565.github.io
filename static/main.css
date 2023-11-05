@@ -6,6 +6,7 @@ a {
 
 a:hover {
     cursor: none;
+    font-style: italic;
 }
 
 @media screen and (min-width: 768px) {
