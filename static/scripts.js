@@ -15,10 +15,10 @@ document.addEventListener("DOMContentLoaded", (ev) => {
     const follower = document.getElementById("follower");
     const nav1 = document.getElementById("nav-bio");
     const nav2 = document.getElementById("nav-resume");
-    const nav3 = document.getElementById("nav-blog");
+    const nav3 = document.getElementById("nav-links");
     const bio = document.getElementById("bio");
     const resume = document.getElementById("resume");
-    const blog = document.getElementById("blog");
+    const links = document.getElementById("links");
 
     // DESKTOP SPECIFIC SCRIPTING
     if (!isMobileDevice) {
@@ -45,9 +45,9 @@ document.addEventListener("DOMContentLoaded", (ev) => {
     }
 
     // PLATFORM AGNOSTIC FUNCTIONALITY
-    navFunctionality(nav1, bio, resume, blog);
-    navFunctionality(nav2, resume, bio, blog);
-    navFunctionality(nav3, blog, bio, resume);
+    navFunctionality(nav1, bio, resume, links);
+    navFunctionality(nav2, resume, bio, links);
+    navFunctionality(nav3, links, bio, resume);
 
     function navFunctionality(item, toShow, toHide1, toHide2) {
         item.addEventListener("mouseenter", (ev) => {
